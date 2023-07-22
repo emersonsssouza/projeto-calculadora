@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/index.css" media="all">
+    <link rel="stylesheet" href="estilos/media.css" media="screen">
+    <title>Calculadora</title>
+</head>
+
+<body>
+        <div class="box">
+            <div class="box-texto">
+                <p>Calculadora</p>
+                <p>Consumo de agua por dia</p>
+            </div>
+            <div class="input">
+                <label for="nome">Nome:</label>
+                <input class=".required" type="text" name="inome" id="nome" >
+            </div>
+            <div class="input">
+                <label for="peso">Peso:</label>
+                <input class=".required" type="number" name="ipeso" id="peso" >
+            </div>
+            <div class="input">
+                <button onclick="calcular()">Calcular</button>
+                <button onclick="apagar()">Apagar</button>
+            </div>
+            
+            <div id="res">
+
+            </div>
+       
+        </div>
+  
+           
+   
+
+    <script src="JavaScript/calculadora.js"></script>
+</body>
+
+</html>

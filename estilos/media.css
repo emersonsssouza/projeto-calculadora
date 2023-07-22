@@ -1,0 +1,307 @@
+@media screen and (min-width: 320px) and (max-width: 480px)  {
+    /*Midia para SmartPhones*/
+    body{
+        background-color: rgba(0, 0, 0, 0.362);
+    }
+
+    div.box {
+        width: 100vw;
+        height: 90vh;
+        margin: 20px 10px;
+        gap: 20px;
+    }
+
+    div.box-texto > p {
+        font-size: 19px;
+    }
+
+    input {
+        background-color: rgba(255, 255, 255, 0.693);
+        border-radius: 5px;
+    }
+
+    button {
+        width: 100px;
+        height: 50px;
+        border-radius: 5px;
+        color: black;
+    }
+
+    div#res {
+        width: 80vw;
+        height: 90px;
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /*Midia para Tablets*/
+    body{
+       background-image: linear-gradient(black,  dimgray,black);
+    }
+
+    div.box {
+        width: 100vw;
+        height: 100vh;
+        margin: 20px 10px;
+        gap: 20px;
+        background-image: linear-gradient(black,  dimgray,black);
+    }
+
+    div.box-texto > p {
+        font-size: 35px;
+        color: white;
+    }
+
+    label {
+        width: 30%;
+        color: white;
+        font-size: 30px;
+    }
+
+    input {
+        width: 70%;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0.693);
+        border-radius: 8px;
+    }
+
+    button {
+        width: 150px;
+        height: 70px;
+        font-size: 22px;
+        border-radius: 5px;
+        color: black;
+    }
+
+    div#res {
+        width: 70vw;
+        height: 90px;
+        font-size: 25px;
+        background-color: white;
+        color: black;
+
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /*Midia para grandes telas*/
+    body{
+        background-image: linear-gradient(black,  dimgray,black);
+     }
+ 
+     div.box {
+         width: 100vw;
+         height: 100vh;
+         margin: 20px 10px;
+         gap: 20px;
+         background-color: black;
+     }
+ 
+     div.box-texto > p {
+         font-size: 40px;
+         color: white;
+     }
+
+     div.input {
+        width: 490px;
+     }
+ 
+     label {
+         width: 30%;
+         color: white;
+         font-size: 30px;
+     }
+ 
+     input {
+         width: 100%;
+         height: 50px;
+         background-color: rgba(255, 255, 255, 0.693);
+         border-radius: 8px;
+     }
+ 
+     button {
+         width: 170px;
+         height: 70px;
+         font-size: 27px;
+         border-radius: 5px;
+         color: black;
+     }
+ 
+     div#res {
+         width: 70vw;
+         height: 90px;
+         font-size: 25px;
+         background-color: white;
+         color: black;
+ 
+     }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    /*Midia para grandes telas*/
+    body{
+        background-image: linear-gradient(black,  dimgray,black);
+     }
+ 
+     div.box {
+         width: 100vw;
+         height: 100vh;
+         margin: 20px 10px;
+         gap: 20px;
+         background-color: black;
+     }
+ 
+     div.box-texto > p {
+         font-size: 40px;
+         color: white;
+     }
+
+     div.input {
+        width: 490px;
+     }
+ 
+     label {
+         width: 30%;
+         color: white;
+         font-size: 30px;
+     }
+ 
+     input {
+         width: 100%;
+         height: 50px;
+         background-color: rgba(255, 255, 255, 0.693);
+         border-radius: 8px;
+     }
+ 
+     button {
+         width: 170px;
+         height: 70px;
+         font-size: 27px;
+         border-radius: 5px;
+         color: black;
+     }
+ 
+     div#res {
+         width: 70vw;
+         height: 90px;
+         font-size: 25px;
+         background-color: white;
+         color: black;
+ 
+     }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) and (orientation: portrait){
+    /*Midia para telas extra largas*/
+body{
+    background-image: linear-gradient(black,  dimgray,black);
+ }
+
+ div.box {
+     width: 100vw;
+     height: 100vh;
+     margin: 20px 10px;
+     gap: 20px;
+     background-color: black;
+ }
+
+ div.box-texto > p {
+     font-size: 40px;
+     color: white;
+ }
+
+ div.input {
+    width: 490px;
+ }
+
+ label {
+     width: 30%;
+     color: white;
+     font-size: 30px;
+ }
+
+ input {
+     width: 100%;
+     height: 50px;
+     background-color: rgba(255, 255, 255, 0.693);
+     border-radius: 8px;
+ }
+
+ button {
+     width: 170px;
+     height: 70px;
+     font-size: 27px;
+     border-radius: 5px;
+     color: black;
+ }
+
+ div#res {
+     width: 70vw;
+     height: 90px;
+     font-size: 25px;
+     background-color: white;
+     color: black;
+
+ }
+}
+/*ORIENTAÇÃO LANDSCAPE*/
+
+@media  (orientation: landscape) {
+    body{
+        background-image: linear-gradient(black,  dimgray,black);
+        display: flex;
+        object-fit: cover;
+        overflow: auto;
+        width: 100vw;
+        height: 100vh;
+     }
+    
+     div.box {
+         width: 90vw;
+         height: auto;
+         margin: auto;
+         gap: 3px;
+         background-color: black;
+     }
+    
+     div.box-texto > p {
+         font-size: 40px;
+         color: white;
+     }
+    
+     div.input {
+        width: 490px;
+     }
+    
+     label {
+         width: 30%;
+         color: white;
+         font-size: 30px;
+     }
+    
+     input {
+         width: 100%;
+         height: 50px;
+         background-color: rgba(255, 255, 255, 0.693);
+         color: white;
+         border-radius: 8px;
+     }
+    
+     button {
+         width: 170px;
+         height: 70px;
+         font-size: 27px;
+         border-radius: 5px;
+         color: black;
+     }
+    
+     div#res {
+         width: 70vw;
+         height: 90px;
+         font-size: 25px;
+         background-color: dimgray;
+         color: white;
+    
+     }
+    }
